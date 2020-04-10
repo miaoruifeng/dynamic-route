@@ -1,0 +1,62 @@
+{
+  "data": [
+    {
+      "path": "/home",
+      "component": "Layout",
+      "children": [
+        {
+          "path": "/ssjc",
+          "component": "/monitor/Monitor",
+          "meta": { "title": "实时监测", "icon": "" }
+        }
+      ],
+      "meta": { "title": "首页", "icon": "el-icon-menu" }
+    },
+    {
+      "path": "/power",
+      "component": "Layout",
+      "children": [
+        {
+          "path": "/dqyc",
+          "component": "/power/Short",
+          "meta": { "title": "短期预测", "icon": "" }
+        },
+        {
+          "path": "/cdqyc",
+          "component": "/power/ShortSuper",
+          "meta": { "title": "超短期预测", "icon": "" }
+        }
+      ],
+      "meta": { "title": "功率预测", "icon": "el-icon-menu" }
+    },
+    {
+      "path": "/tjfx",
+      "component": "Layout",
+      "children": [
+        {
+          "path": "/xtsj",
+          "component": "Main",
+          "children": [
+            {
+              "path": "/dzyx",
+              "component": "/statistic/systemdata/Dzyx",
+              "meta": { "title": "电站运行", "icon": "" }
+            },
+            {
+              "path": "/qxjc",
+              "component": "/statistic/systemdata/Qxjc",
+              "meta": { "title": "气象预测", "icon": "" }
+            }
+          ],
+          "meta": { "title": "系统数据查询", "icon": "" }
+        },
+        {
+          "path": "/ycwc",
+          "component": "/statistic/forecast/Ycwc",
+          "meta": { "title": "预测误差分析", "icon": "" }
+        }
+      ],
+      "meta": { "title": "统计分析", "icon": "el-icon-menu" }
+    }
+  ]
+}
