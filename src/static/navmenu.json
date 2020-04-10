@@ -3,6 +3,7 @@
     {
       "path": "/home",
       "component": "Layout",
+      "redirect": "/ssjc",
       "children": [
         {
           "path": "/ssjc",

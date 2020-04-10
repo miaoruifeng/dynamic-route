@@ -30,7 +30,7 @@ export default {
   methods: {
     onLogin() {
       setTimeout(() => {
-        this.$router.push('/ssjc')
+        this.$router.push('/home')
       }, 100)
     }
   }
